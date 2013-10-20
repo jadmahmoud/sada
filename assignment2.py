@@ -10,7 +10,7 @@ def find_mp3s(path):
     if not os.path.exists(path):
             raise ValueError ('Wrong path entered !!')
     if type(path)is not str:
-            raise TypeError ('Path is not a string')
+            raise TypeError ('Path is not a string !!!!!!')
     for dir_, subdir_list, file_list in os.walk(path):
             for file_name in file_list:
                     #only paths ending with .mp3 are needed
